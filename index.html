@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vendas</title>
+    <!-- Inclua a biblioteca FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Inclua o link para a fonte Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sales-image {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+        }
+
+        /* Estilo para o botão com ícone do WhatsApp e fundo verde (#08962E) ocupando 100% da largura da tela com a fonte "Inter" */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%; /* Largura de 100% da tela */
+            background-color: #42bf82; /* Cor verde */
+            color: #fff; /* Texto branco */
+            padding: 20px 0; /* Padding vertical é 15px e horizontal é 0 */
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase; /* Deixa o texto em caixa alta */
+            font-size: 20px; /* Aumenta o tamanho da fonte */
+            font-weight: 800; /* Torna a fonte mais ousada */
+            font-family: 'Inter', sans-serif; /* Aplica a fonte "Inter" */
+        }
+
+        /* Estilo para o ícone do WhatsApp */
+        .whatsapp-icon {
+            font-size: 24px;
+            margin-right: 10px; /* Espaçamento à direita para alinhar com o texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="sales-image" src="https://i.postimg.cc/3YJL8DtB/1.png" alt="Imagem de Vendas">
+        <img class="sales-image" src="https://i.postimg.cc/x9XtHVDN/2.png" alt="Imagem de Vendas">
+        <img class="sales-image" src="https://i.postimg.cc/fTRtXsV3/3-fotor-2023103022833.png" alt="Imagem de Vendas">
+    </div>
+
+    <!-- Botão com ícone do WhatsApp e fundo verde (#08962E), ocupando 100% da largura da tela, estilizado com texto em caixa alta, fundo verde, texto branco e fonte "Inter" -->
+    <a href="whatsapp://send?phone=556282121302&text=Olá%20Gostaria%20de%20saber%20mais%20sobre%20a%20panfletagem%20digital" class="whatsapp-button">
+    <i class="fab fa-whatsapp whatsapp-icon"></i> CONTRATAR AGORA
+</a>
+</body>
+</html>
